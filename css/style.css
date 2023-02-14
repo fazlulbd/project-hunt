@@ -13,7 +13,7 @@ a{
 img{
     vertical-align: middle;
 }
-
+/* ========================================================================================================================================== */
 /* header part start */
 .header{
     border-bottom: 2px solid yellow;
@@ -69,7 +69,7 @@ img{
     opacity: 1;
     width: 70%;
 }
-
+/* ========================================================================================================================================== */
 /* banner part start */
 #banner{
     position: relative;
@@ -174,7 +174,7 @@ img{
     color: black;
     border: 2px solid transparent;
 }
-
+/* ========================================================================================================================================== */
 /* about part start */
 .about-head{
     margin-top: 30px;
@@ -357,7 +357,7 @@ img{
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
-
+/* ========================================================================================================================================== */
 /* protfolio part start */
 #protfolio{
     padding: 100px 0;
@@ -414,7 +414,7 @@ img{
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
-
+/* ========================================================================================================================================== */
 /* service part start */
 .ser-item{
     margin: 30px 0;
@@ -431,9 +431,10 @@ img{
     margin: 0 auto;
 }
 .ser-round img{
+   width: 65%;
     display: inline-block;
     text-align: center;
-    padding-top: 20px;
+    padding-top: 10px;
     transition: .5s;
     -webkit-transition: .5s;
     -moz-transition: .5s;
@@ -535,7 +536,7 @@ img{
 #Services .slick-center .ser-text{
     box-shadow: 5px 5px 10px gray;
 }
-
+/* ========================================================================================================================================== */
 /* testimonial part start */
 #testimonial{
     background: linear-gradient(to left, rgba(0, 0, 0, 0.443), rgba(0, 0, 0, 0.785)),url(../images/testi_bg.jpg) no-repeat center / cover;
@@ -648,7 +649,7 @@ img{
 #testimonial .slick-center .test-img::after{
     opacity: 0;
 }
-
+/* ========================================================================================================================================== */
 /* pricing part start */
 .pric-item{
     background: #f1f1f1;
@@ -744,7 +745,7 @@ img{
 .pric-item:hover .pric-number::before{
     border: 2px solid #fec600;
 }
-
+/* ========================================================================================================================================== */
 /* counter part start */
 #counter-part{
     background-color: rgba(0, 0, 0, 0.827);
@@ -766,7 +767,7 @@ img{
    
 }
 
-
+/* ========================================================================================================================================== */
 /* team part start */
 
 .team-item{
@@ -837,6 +838,7 @@ img{
     -ms-transform: translate(-50%, -50%);
     -o-transform: translate(-50%, -50%);
 }
+/* ========================================================================================================================================== */
 /* market place part start */
 #market-place{
     background: #f1f1f1;
@@ -845,18 +847,21 @@ img{
     clip-path: polygon(0 25%, 100% 0, 100% 75%, 0% 100%);
 }
 .market-item{
-    padding: 30px 0;
+    padding: 30px 20px;
     border: 3px solid black;
-    text-align: center;
+    margin: 0 20px;
 }
-.market-inner{
+.market-slider{
     transform: rotate(-2deg);
     -webkit-transform: rotate(-2deg);
     -moz-transform: rotate(-2deg);
     -ms-transform: rotate(-2deg);
     -o-transform: rotate(-2deg);
 }
-
+#market-place .slick-center .market-item{
+    border: 3px solid #fec600;
+}
+/* ========================================================================================================================================== */
 /* footer part start */
 #footer {
 	background: #353535;

@@ -58,4 +58,22 @@
       nextArrow:'.test-next',
     });
 
+
+      // counter up
+    jQuery(document).ready(function($) {
+      $('.counter').counterUp({
+          delay: 10,
+          time: 1000
+      });
+    });
+
+    // market-slider
+    $('.market-slider').slick({
+      centerMode: true,
+      centerPadding: '0px',
+      slidesToShow: 5,
+      slidesToScroll: 1,
+      arrows:false,
+    });
+
   })

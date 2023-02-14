@@ -821,7 +821,22 @@ img{
     margin-top: 0;
     opacity: 1;
 }
-
+.team-overly i{
+    position: absolute;
+    color: white;
+    font-size: 22px;
+    height: 40px;
+    width: 40px;
+    border: 2px solid white;
+    line-height: 40px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+}
 /* market place part start */
 #market-place{
     background: #f1f1f1;

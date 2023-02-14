@@ -36,6 +36,20 @@
       vertical:true,
       prevArrow:'.ser-previous',
       nextArrow:'.ser-next',
+      autoplay: true,
+      autoplaySpeed: 2000,
+      responsive: [
+        {
+          breakpoint: 576,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+      ]
     });
 
     // testimonial slide
@@ -44,7 +58,9 @@
       slidesToScroll: 1,
       arrows: false,
       fade: true,
-      asNavFor: '.test-inner'
+      asNavFor: '.test-inner',
+      autoplay: true,
+      autoplaySpeed: 2000,
     });
     $('.test-inner').slick({
       slidesToShow: 3,
@@ -56,6 +72,8 @@
       centerPadding: '0',
       prevArrow:'.test-previous',
       nextArrow:'.test-next',
+      autoplay: true,
+      autoplaySpeed: 2000,
     });
 
 
@@ -74,6 +92,8 @@
       slidesToShow: 5,
       slidesToScroll: 1,
       arrows:false,
+      autoplay: true,
+      autoplaySpeed: 2000,
     });
 
   })

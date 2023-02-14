@@ -371,6 +371,7 @@ img{
     padding-bottom: 20px;
 }
 .port-item{
+    margin-top: 30px;
     position: relative;
 }
 .prot-overly{
@@ -416,6 +417,9 @@ img{
 }
 /* ========================================================================================================================================== */
 /* service part start */
+.ser-head{
+    margin-bottom: 60px;
+}
 .ser-item{
     margin: 30px 0;
 }
@@ -535,6 +539,15 @@ img{
 #Services .slick-center .ser-left,
 #Services .slick-center .ser-text{
     box-shadow: 5px 5px 10px gray;
+}
+.ser-content-1{
+    text-align: end;
+}
+.ser-content-2{
+    text-align: start;
+}
+.service-slide{
+    margin-bottom: 50px;
 }
 /* ========================================================================================================================================== */
 /* testimonial part start */

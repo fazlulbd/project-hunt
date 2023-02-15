@@ -102,6 +102,50 @@
     #Services .ser-previous{
         display: none;
     }
+    #testimonial{
+        clip-path: polygon(0 3%, 100% 0%, 100% 98%, 0% 100%);
+    }
+    #testimonial::after{
+        background: none;
+    }
+    #testimonial .test-previous{
+        display: none;
+    }
+    #testimonial .test-next{
+        display: none;
+    }
+    .test-text::after{
+        display: none;
+    }
+    .test-text{
+        text-align: center;
+    }
+    #pricing{
+        margin: 50px 0;
+    }
+    .pric-item{
+        margin: 10px 0;
+    }
+    .count-padding{
+        margin: 5px 0;
+    }
+    #counter-part{
+        clip-path: polygon(0 5%, 100% 0, 100% 95%, 0% 100%);
+    }
+    .counter-number{
+        transform: rotate(0deg);
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+     }
+     .market-slider{
+        transform: rotate(-5deg);
+        -webkit-transform: rotate(-5deg);
+        -moz-transform: rotate(-5deg);
+        -ms-transform: rotate(-5deg);
+        -o-transform: rotate(-5deg);
+     }
 }
 
 @media (min-width: 576px) and (max-width: 767.98px) {  }

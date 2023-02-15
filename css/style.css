@@ -662,6 +662,9 @@ img{
 #testimonial .slick-center .test-img::after{
     opacity: 0;
 }
+.test-img-item{
+    padding: 28px 0;
+}
 /* ========================================================================================================================================== */
 /* pricing part start */
 .pric-item{

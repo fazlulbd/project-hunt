@@ -49,6 +49,16 @@
             slidesToScroll: 1,
           }
         },
+        {
+          breakpoint: 767,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
       ]
     });
 
@@ -77,6 +87,16 @@
       responsive: [
         {
           breakpoint: 576,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 767,
           settings: {
             arrows: false,
             centerMode: true,
@@ -114,6 +134,16 @@
             centerMode: true,
             centerPadding: '0px',
             slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 767,
+          settings: {
+            arrows: false,
+            centerMode: true,
+            centerPadding: '0px',
+            slidesToShow: 2,
             slidesToScroll: 1,
           }
         },
